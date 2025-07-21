@@ -68,6 +68,10 @@ div p {
   background-repeat: no-repeat;
 }
 
+.cartas {
+  margin: 30px;
+}
+
 .cardmed {
   background-image: url(../img/mediciones1.jpeg);
   background-position: center;
