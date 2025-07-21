@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body li {
+  list-style: none;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(78, 113, 255) 0%, rgba(95, 132, 232, 0.87) 100%);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.menu {
+  background-color: coral;
+}
+.menu .link {
+  color: black;
+}
+
+.logo {
+  width: 100%;
+  height: 270px;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container .redes {
+  display: flex;
+  width: 20%;
+}
+
+main h1 {
+  text-align: center;
+}
+
+main h2 {
+  text-align: center;
+}
+
+div p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.cardcap {
+  background-image: url(../img/capacitaciones-\(1\).jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cardmed {
+  background-image: url(../img/mediciones1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardind {
+  background-image: url(../img/industria1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
