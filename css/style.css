@@ -49,16 +49,19 @@ nav ul {
 
 main h1 {
   text-align: center;
+  margin: 50px;
 }
 
 main h2 {
   text-align: center;
+  margin: 40px;
 }
 
 div p {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
+  margin: 70px;
 }
 
 .cardcap {
@@ -70,6 +73,8 @@ div p {
 
 .cartas {
   margin: 30px;
+  max-height: 40%;
+  width: 97%;
 }
 
 .cardmed {
@@ -81,6 +86,13 @@ div p {
 
 .cardind {
   background-image: url(../img/industria1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardconst {
+  background-image: url(../img/construcciones.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
